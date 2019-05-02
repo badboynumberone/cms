@@ -56,8 +56,64 @@ class Db {
                 })
             })
         })
+    }
+//更新
+    update(collectionName,json1,json2){
+        return new Promise((resolve,reject)=>{
+            this.connect().then((db)=>{
+                db.collection(collectionName).updateOne(json1,{
+                    $set:json2
+                },(err,result)=>{
+                    if(err){
+                        reject(err);
+                    }else{
+                        resolve(result);
+                    }
+                })
+
+            })
+
+        })
 
     }
+//插入数据
+    insert(collectionName,json){
+        return new  Promise((resolve,reject)=>{
+            this.connect().then((db)=>{
+
+                db.collection(collectionName).insertOne(json,function(err,result){
+                    if(err){
+                        reject(err);
+                    }else{
+
+                        resolve(result);
+                    }
+                })
+
+
+            })
+        })
+    }
+//删除数据
+    remove(collectionName,json){
+
+        return new  Promise((resolve,reject)=>{
+            this.connect().then((db)=>{
+
+                db.collection(collectionName).removeOne(json,function(err,result){
+                    if(err){
+                        reject(err);
+                    }else{
+
+                        resolve(result);
+                    }
+                })
+
+
+            })
+        })
+    }
+
 }
 
 module.exports = Db.getInstance();

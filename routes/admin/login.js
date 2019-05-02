@@ -24,9 +24,14 @@ router.post("/doLogin",async(ctx) =>{
         // await ctx.render("admin/login")
         // ctx.redirect("/admin/user")
     }else{
-        ctx.session.userinfo = result[0]; 
-        ctx.status=200;
-        ctx.body={code:0,"msg":"登录成功"}
+        if(result[0].status){
+            ctx.session.userinfo = result[0];
+            ctx.status=200;
+            ctx.body={code:0,"msg":"登录成功"}
+        }else{
+            ctx.body={code:1,"msg":"您的账号已被锁住,暂时无法登录"}
+        }
+
         // ctx.redirect("/admin/user")
     }
 })

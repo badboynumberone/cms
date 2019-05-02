@@ -1,17 +1,23 @@
 const router = require('koa-router')();
 const url = require("url");
+const DB = require("../utils/db");
+var sd = require('silly-datetime');
 router.prefix('/admin');
 
 
 //改方法必须置前
 router.use(async (ctx, next) => {
+    let arr = url.parse(ctx.url).pathname.split("/");
+    pathItem = "/"+arr[1]+"/"+arr[2];
     ctx.state = {
+        pathItem,
+        pathname:url.parse(ctx.url).pathname,
         __HOST__: "http://" + ctx.header.host
     };
     let pathname = url.parse(ctx.url).pathname;
-    console.log(ctx.session.userinfo)
     if (ctx.session.userinfo) {
-        ctx.state.username = ctx.session.userinfo.username
+        ctx.state.username = ctx.session.userinfo.username;
+        let result = await DB.update("admin",{"username":ctx.session.userinfo.username},{"last_time":sd.format(new Date(), 'YYYY-MM-DD HH:mm')})
         await next();
     } else {
         if (pathname == "/admin/login" || pathname == "/admin/login/doLogin" || pathname == "/admin/login/captcha" ) {

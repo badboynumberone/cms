@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab88142-c51e-4b69-a591-dd5cc7d63458" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/views/admin/common/headerscript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/images/no.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/images/yes.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/common/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GET" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GET" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/uglify-js/tools/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/uglify-js/tools/props.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/opentype.js/examples/creating-fonts.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/opentype.js/examples/creating-fonts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/opentype.js/examples/font-editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/opentype.js/examples/font-editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/opentype.js/examples/reading-writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/opentype.js/examples/reading-writing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/opentype.js/font-inspector.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/opentype.js/font-inspector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/opentype.js/glyph-inspector.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/opentype.js/glyph-inspector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/bootstrap-tag.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/bootstrap-tag.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/bootstrap-wysiwyg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/date-time/daterangepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/date-time/daterangepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/date-time/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/date-time/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/flot/jquery.flot.resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/flot/jquery.flot.resize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jqGrid/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery-2.0.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery-2.0.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery-ui-1.10.3.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery-ui-1.10.3.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery.mobile.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/jquery.validate.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/common/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/common/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/common/script.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/common/script.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/manager/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,62 +53,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/login.html">
+        <entry file="file://$PROJECT_DIR$/views/admin/manager/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="156" selection-end-column="18" />
+            <state relative-caret-position="5150">
+              <caret line="254" column="87" selection-start-line="254" selection-start-column="87" selection-end-line="254" selection-end-column="87" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#span#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4698#5293#0" />
+                <element signature="e#77#84#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
+        <entry file="file://$PROJECT_DIR$/views/admin/manager/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="61">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/index.html">
+        <entry file="file://$PROJECT_DIR$/views/admin/common/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="562" lean-forward="true" selection-start-line="562" selection-end-line="562" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/admin/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="198">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <element signature="e#736#744#0" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,35 +97,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/common/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="272">
+              <caret line="71" column="6" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/common/headerscript.html">
+        <entry file="file://$PROJECT_DIR$/routes/admin/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/common/script.html">
+        <entry file="file://$PROJECT_DIR$/routes/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="125">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/db.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="97" column="10" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/admin/common/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="250">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin/manager/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#11376#11540#0" />
+                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#12072#13721#0" />
+                <element signature="e#12130#12510#0" />
+                <element signature="e#77#84#1" expanded="true" />
+                <element signature="e#12548#13679#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +175,13 @@
       <find>form</find>
       <find>啦啦</find>
       <find>username</find>
-      <find>assets</find>
       <find>cookie</find>
+      <find>3,330</find>
+      <find>extra</find>
+      <find>assets</find>
+      <find>form-field-1</find>
+      <find>edit</find>
+      <find>if</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,21 +192,26 @@
       <list>
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/admin/common/head.html" />
         <option value="$PROJECT_DIR$/views/admin/list.html" />
         <option value="$PROJECT_DIR$/utils/conf.js" />
-        <option value="$PROJECT_DIR$/utils/db.js" />
         <option value="$PROJECT_DIR$/views/admin/common/script.html" />
-        <option value="$PROJECT_DIR$/utils/tools.js" />
         <option value="$PROJECT_DIR$/public/admin/js/cookie.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/admin/user.js" />
-        <option value="$PROJECT_DIR$/views/admin/login.html" />
         <option value="$PROJECT_DIR$/views/admin/common/header.html" />
-        <option value="$PROJECT_DIR$/views/admin/index.html" />
-        <option value="$PROJECT_DIR$/routes/admin.js" />
         <option value="$PROJECT_DIR$/views/admin/common/headerscript.html" />
+        <option value="$PROJECT_DIR$/views/admin/index.html" />
+        <option value="$PROJECT_DIR$/utils/tools.js" />
+        <option value="$PROJECT_DIR$/public/admin/js/toggle.js" />
+        <option value="$PROJECT_DIR$/utils/db.js" />
+        <option value="$PROJECT_DIR$/views/admin/login.html" />
+        <option value="$PROJECT_DIR$/views/admin/manager/edit.html" />
+        <option value="$PROJECT_DIR$/views/admin/manager/add.html" />
+        <option value="$PROJECT_DIR$/views/admin/common/navbar.html" />
+        <option value="$PROJECT_DIR$/routes/admin.js" />
         <option value="$PROJECT_DIR$/routes/admin/login.js" />
+        <option value="$PROJECT_DIR$/routes/admin/user.js" />
+        <option value="$PROJECT_DIR$/views/admin/common/head.html" />
+        <option value="$PROJECT_DIR$/views/admin/manager/list.html" />
       </list>
     </option>
   </component>
@@ -181,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +251,11 @@
             <path>
               <item name="cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,11 +271,17 @@
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,16 +290,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\cms管理系统\cms\views\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\cms管理系统\cms\views\admin\manager" />
       <recent name="C:\Users\Administrator\Desktop\cms管理系统\cms\public\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\cms管理系统\cms\public\admin\images" />
+      <recent name="C:\Users\Administrator\Desktop\cms管理系统\cms\views\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,12 +341,13 @@
       <option name="presentableId" value="Default" />
       <updated>1556710238453</updated>
       <workItem from="1556710239524" duration="16966000" />
-      <workItem from="1556757054227" duration="15938000" />
+      <workItem from="1556757054227" duration="26052000" />
+      <workItem from="1556793434441" duration="15611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32904000" />
+    <option name="totallyTimeSpent" value="58629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,10 +359,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18545838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -310,8 +373,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32936078" />
-      <window_info anchor="bottom" id="找到" order="7" show_stripe_button="false" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="运行" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="找到" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="运行" order="8" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32936078" />
@@ -350,6 +413,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/layout.pug" />
@@ -361,38 +438,10 @@
         <state relative-caret-position="-225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -403,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/common/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/common/script.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -424,60 +459,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/common/header.html">
+    <entry file="file://$PROJECT_DIR$/public/admin/js/toggle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+    <entry file="file://$PROJECT_DIR$/utils/tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="125">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="325">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="562" lean-forward="true" selection-start-line="562" selection-end-line="562" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/common/headerscript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="104">
+          <caret line="373" column="8" lean-forward="true" selection-start-line="373" selection-start-column="8" selection-end-line="373" selection-end-column="48" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="138" column="16" selection-start-line="138" selection-start-column="16" selection-end-line="156" selection-end-column="18" />
+        <state relative-caret-position="259">
+          <caret line="126" column="60" lean-forward="true" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#input#0;n#span#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#span#0;n#label#2;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4698#5293#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/common/headerscript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/common/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/common/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/manager/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5150">
+          <caret line="254" column="87" selection-start-line="254" selection-start-column="87" selection-end-line="254" selection-end-column="87" />
+          <folding>
+            <element signature="e#77#84#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/manager/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#11376#11540#0" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#12072#13721#0" />
+            <element signature="e#12130#12510#0" />
+            <element signature="e#77#84#1" expanded="true" />
+            <element signature="e#12548#13679#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/admin/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="e#736#744#0" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/manager/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/common/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>

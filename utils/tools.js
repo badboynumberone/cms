@@ -4,4 +4,5 @@ module.exports={
     md5(str){
         return md5(str)
     }
+
 }
