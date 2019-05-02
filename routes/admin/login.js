@@ -27,6 +27,7 @@ router.post("/doLogin",async(ctx) =>{
         ctx.session.userinfo = result[0];
         ctx.status=200;
         ctx.body={code:0,"msg":"登录成功"}
+        // ctx.redirect("/admin/user")
     }
 })
 

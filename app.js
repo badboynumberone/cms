@@ -16,7 +16,7 @@ const session = require('koa-session');
 app.keys = ['some secret hurr'];
 const CONFIG = {
   key: 'koa:sess', /*不需要配置 */
-  maxAge: 1000*10,//过期时间
+  maxAge: 1000*3600*24,//过期时间
   autoCommit: true, /** (boolean) automatically commit headers (default true) */
   overwrite: true, /** 没有效果 */
   httpOnly: false, /** 是否只有服务器端可以获取cookie */

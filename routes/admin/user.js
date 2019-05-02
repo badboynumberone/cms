@@ -6,9 +6,7 @@ router.use(async (ctx,next)=>{
 })
 
 router.get('/', async (ctx, next) => {
-    await ctx.render('admin/list', {
-        title: 'Hello Koa 2!'
-    })
+    await ctx.render('admin/index');
 })
 
 
