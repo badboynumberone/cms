@@ -11,6 +11,7 @@ router.use(async (ctx, next) => {
     let pathname = url.parse(ctx.url).pathname;
     console.log(ctx.session.userinfo)
     if (ctx.session.userinfo) {
+        ctx.state.username = ctx.session.userinfo.username
         await next();
     } else {
         if (pathname == "/admin/login" || pathname == "/admin/login/doLogin" || pathname == "/admin/login/captcha" ) {

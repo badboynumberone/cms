@@ -6,7 +6,10 @@ router.use(async (ctx,next)=>{
 })
 
 router.get('/', async (ctx, next) => {
-    await ctx.render('admin/index');
+
+    await ctx.render('admin/index',{
+
+    });
 })
 
 

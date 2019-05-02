@@ -5,13 +5,13 @@ const tools = require("../../utils/tools");
 router.use(async (ctx,next)=>{
     await next();
 })
+//页面渲染
 router.get('/', async (ctx,next) => {
-    await ctx.render('admin/login', {
-        title: 'Hello Koa 2!'
-    })
+    await ctx.render('admin/login')
     await next();
 })
 
+//登录
 router.post("/doLogin",async(ctx) =>{
     // ctx.body="123"
     let username = ctx.request.body.username;
@@ -20,17 +20,18 @@ router.post("/doLogin",async(ctx) =>{
     let result = await DB.find("admin",{username,password:tools.md5(password)});
     if(result == false){//没有该用户
         ctx.status=200;
-        ctx.body={code:1,"msg":"用户名或密码格式不正确，请重新输入"}
+        ctx.body={code:1,"msg":"用户名或密码不正确，请重新输入"}
         // await ctx.render("admin/login")
         // ctx.redirect("/admin/user")
     }else{
-        ctx.session.userinfo = result[0];
+        ctx.session.userinfo = result[0]; 
         ctx.status=200;
         ctx.body={code:0,"msg":"登录成功"}
         // ctx.redirect("/admin/user")
     }
 })
 
+//获取验证码
 router.get('/captcha',async (ctx)=>{
     let captcha = svgCaptcha.create({
         size: 4,
@@ -48,5 +49,10 @@ router.get('/captcha',async (ctx)=>{
     ctx.body = captcha.data;
 });
 
+//退出登录
+router.get('/loginOut',async (ctx) =>{
+    ctx.session.userinfo=null;
+    ctx.body={"code":0,"msg":"退出登录成功"}
+})
 
 module.exports = router
